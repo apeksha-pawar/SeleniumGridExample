@@ -16,9 +16,9 @@ public class Login {
 	public void setUpGrid() throws MalformedURLException, InterruptedException {
 		DesiredCapabilities cap = null;
 		RemoteWebDriver driver = null;
-		String node1 = "http://172.25.33.21:5566/wd/hub";
-		String node2 = "http://172.25.33.21:5567/wd/hub";
-		String node3 = "http://172.25.33.21:5568/wd/hub";		
+		String node1 = "http://172.25.12.21:5566/wd/hub";
+		String node2 = "http://172.25.12.21:5567/wd/hub";
+		String node3 = "http://172.25.12.21:5568/wd/hub";		
 		
 		initDriver("chrome",node1,cap,driver);
 		initDriver("firefox",node2,cap,driver);
